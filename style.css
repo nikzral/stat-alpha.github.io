@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Trispace:wght@300&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(187, 187, 187);
+}
+
+.header {
+  background-color: gray;
+  width: 100%;
+  height: 7%;
+  padding-top: 0.01%;
+  border-bottom: black solid 5px;
+  font-family: sans-serif;
+}
+.header2 {
+  background-color: gray;
+  width: 100%;
+  height: 5%;
+  padding-top: 0.01%;
+  border-bottom: black solid 5px;
+}
+.headertitle {
+  font-family: "Trispace", sans-serif;
+  color: white;
+  padding-left: 5px;
+}
+.inpmainlabel {
+  font-family: sans-serif;
+}
+.inpmain {
+  width: 20%;
+  height: 5%;
+}
+.gobutton {
+  background-color: lime;
+  border: none;
+}
+.bigticker {
+  font-family: sans-serif;
+  color: black;
+  padding-left: 2%;
+  font-size: 250%;
+}
+.bigname {
+  font-family: sans-serif;
+  color: black;
+  padding-left: 2%;
+  font-size: 100%;
+  margin-top: -0.5%;
+}
+.bigtype {
+  font-family: sans-serif;
+  color: black;
+  padding-left: 2%;
+  font-size: 100%;
+  margin-top: -2%;
+}
+.descriptiontext {
+  font-family: sans-serif;
+  color: black;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.bigexchange {
+  font-family: sans-serif;
+  color: black;
+  padding-left: 2%;
+  font-size: 100%;
+  margin-top: -0.5%;
+}
+.alldata {
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: rgb(236, 236, 236);
+  border: black 2px solid;
+  border-collapse: collapse;
+  width: 96%;
+}
+.alltd {
+  border-right: black 1px solid;
+  border-top: black 1px solid;
+  padding: 3px;
+  color: rgb(128, 128, 128);
+}
+.desctd {
+  font-weight: 1000;
+  border-right: black 1px solid;
+  border-top: black 1px solid;
+  padding: 3px;
+}
+.nosee {
+  display: none;
+}
+.tradingviewstuff {
+  padding-bottom: 5vh;
+}

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Stock Technical Analysis Tool</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="header">
+            <h1 class="headertitle">Stock Technical Analysis Tool</h1>
+        </div>
+        <div class="header2">
+            <label class="inpmainlabel" for="inpmain">Stock Ticker</label>
+            <input id="inp1" class="inpmain" name="inpmain" type="text">
+            <button onclick="gj()" class="gobutton">Go</button>
+        </div>
+        <h1 id="choose" class="bigticker">Please Enter A Ticker Above</h1>
+        <div id="nosee" class="nosee">
+        <h1 id="bigticker" class="bigticker">Loading.....</h1>
+        <h2 id="bigtype" class="bigtype"></h2>
+        
+        <h2 id="bigname" class="bigname">International Business Machines Corporation</h2>
+        <h2 id="bigexchange" class="bigexchange"></h2>
+        <h2 id="bigcurrency" class="bigexchange"></h2>
+        <h2 id="bigcountry" class="bigexchange"></h2>
+        <p id="descriptiontext" class="descriptiontext"></p>
+        <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container tradingviewstuff">
+    <div id="tradingview_e4d82"></div>
+    <div class="tradingview-widget-copyright"><a id="tvurl" href="https://www.tradingview.com/symbols/NASDAQ-AAPL/" rel="noopener" target="_blank"></a>
+    <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+    <script src="script.js" type="text/javascript"></script>
+  </div>
+  <!-- TradingView Widget END -->
+        <table class="alldata">
+            <tr>
+                <td class="desctd">Sector</td>
+                <td id="sector" class="alltd">xxxxxxxxxx</td>
+
+                <td class="desctd">Industry</td>
+                <td id="industry" class="alltd">xxxxxxxxxxx</td>
+
+                <td class="desctd">Full Time Employees</td>
+                <td id="employees" class="alltd">xxxxxx</td>
+
+                <td class="desctd">Fiscal Year End</td>
+                <td id="FiscalYearEnd" class="alltd">xxxxxxxx</td>
+                
+                <td class="desctd">Latest Quarter</td>
+                <td id="LatestQuarter" class="alltd">xxxxxxxxxx</td>
+
+                <td class="desctd">Market Capitalization</td>
+                <td id="MarketCapitalization" class="alltd">xxxxxxxxxxxxxx</td>
+            </tr>
+            <tr>
+                <td class="desctd">EBITDA</td>
+                <td id="EBITDA" class="alltd">-</td>
+
+                <td class="desctd">PE Ratio</td>
+                <td id="PERatio" class="alltd">-</td>
+
+                <td class="desctd">PEG Ratio</td>
+                <td id="PEGRatio" class="alltd">-</td>
+
+                <td class="desctd">Dividend Yield</td>
+                <td id="DividendYield" class="alltd">-</td>
+                
+                <td class="desctd">Book Value</td>
+                <td id="BookValue" class="alltd">-</td>
+
+                <td class="desctd">Dividend Per Share</td>
+                <td id="DividendPerShare" class="alltd">-</td>
+            </tr>
+            <tr>
+                <td class="desctd">Dividend Yield</td>
+                <td id="DividendYield" class="alltd">-</td>
+
+                <td class="desctd">PE EPS</td>
+                <td id="EPS" class="alltd">-</td>
+
+                <td class="desctd">Revenue Per Share TTM</td>
+                <td id="RevenuePerShareTTM" class="alltd">-</td>
+
+                <td class="desctd">Profit Margin</td>
+                <td id="ProfitMargin" class="alltd">-</td>
+                
+                <td class="desctd">Operating Margin TTM</td>
+                <td id="OperatingMarginTTM" class="alltd">-</td>
+
+                <td class="desctd">Return On Assets TTM</td>
+                <td id="ReturnOnAssetsTTM" class="alltd">-</td>
+            </tr>
+            <tr>
+                <td class="desctd">Return On Equity TTM</td>
+                <td id="ReturnOnEquityTTM" class="alltd">-</td>
+
+                <td class="desctd">Revenue TTM</td>
+                <td id="RevenueTTM" class="alltd">-</td>
+
+                <td class="desctd">Gross Profit TTM</td>
+                <td id="GrossProfitTTM" class="alltd">-</td>
+
+                <td class="desctd">Diluted EPS TTM</td>
+                <td id="DilutedEPSTTM" class="alltd">-</td>
+                
+                <td class="desctd">Quarterly Earnings Growth YOY</td>
+                <td id="QuarterlyEarningsGrowthYOY" class="alltd">-</td>
+
+                <td class="desctd">Quarterly Revenue Growth YOY</td>
+                <td id="QuarterlyRevenueGrowthYOY" class="alltd">-</td>
+            </tr>
+            <tr>
+                <td class="desctd">Analyst Target Price</td>
+                <td id="AnalystTargetPrice" class="alltd">-</td>
+
+                <td class="desctd">Trailing PE</td>
+                <td id="TrailingPE" class="alltd">-</td>
+
+                <td class="desctd">Forward PE</td>
+                <td id="ForwardPE" class="alltd">-</td>
+
+                <td class="desctd">Price To Sales Ratio TTM</td>
+                <td id="PriceToSalesRatioTTM" class="alltd">-</td>
+                
+                <td class="desctd">Price To Book Ratio</td>
+                <td id="PriceToBookRatio" class="alltd">-</td>
+
+                <td class="desctd">EV To Revenue</td>
+                <td id="EVToRevenue" class="alltd">-</td>
+            </tr>
+            <tr>
+                <td class="desctd">EV To EBITDA</td>
+                <td id="EVToEBITDA" class="alltd">-</td>
+
+                <td class="desctd">Beta</td>
+                <td id="Beta" class="alltd">-</td>
+
+                <td class="desctd">52 Week High</td>
+                <td id="52WeekHigh" class="alltd">-</td>
+
+                <td class="desctd">52 Week Low</td>
+                <td id="52WeekLow" class="alltd">-</td>
+                
+                <td class="desctd">50 Day Moving Average</td>
+                <td id="50DayMovingAverage" class="alltd">-</td>
+
+                <td class="desctd">200 Day Moving Average</td>
+                <td id="200DayMovingAverage" class="alltd">-</td>
+            </tr>
+            <tr>
+                <td class="desctd">Shares Outstanding</td>
+                <td id="SharesOutstanding" class="alltd">-</td>
+
+                <td class="desctd">Shares Float</td>
+                <td id="SharesFloat" class="alltd">-</td>
+
+                <td class="desctd">Shares Short</td>
+                <td id="SharesShort" class="alltd">-</td>
+
+                <td class="desctd">Shares Short Prior Month</td>
+                <td id="SharesShortPriorMonth" class="alltd">-</td>
+                
+                <td class="desctd">Short Ratio</td>
+                <td id="ShortRatio" class="alltd">-</td>
+
+                <td class="desctd">Short Percent Outstanding</td>
+                <td id="ShortPercentOutstanding" class="alltd">-</td>
+            </tr>
+            <tr>
+                <td class="desctd">Short Percent Float</td>
+                <td id="ShortPercentFloat" class="alltd">-</td>
+
+                <td class="desctd">Percent Insiders</td>
+                <td id="PercentInsiders" class="alltd">-</td>
+
+                <td class="desctd">Percent Institutions</td>
+                <td id="PercentInstitutions" class="alltd">-</td>
+
+                <td class="desctd">Forward Annual Dividend Rate</td>
+                <td id="ForwardAnnualDividendRate" class="alltd">-</td>
+                
+                <td class="desctd">Forward Annual Dividend Yield</td>
+                <td id="ForwardAnnualDividendYield" class="alltd">-</td>
+
+                <td class="desctd">Short Percent Outstanding</td>
+                <td id="PayoutRatio" class="alltd">-</td>
+            </tr>
+            <tr>
+                <td class="desctd">Dividend Date</td>
+                <td id="DividendDate" class="alltd">-</td>
+
+                <td class="desctd">Ex Dividend Date</td>
+                <td id="ExDividendDate" class="alltd">-</td>
+
+                <td class="desctd">Last Split Factor</td>
+                <td id="LastSplitFactor" class="alltd">-</td>
+
+                <td class="desctd">Last Split Date</td>
+                <td id="LastSplitDate" class="alltd">-</td>
+                
+                <td class="desctd">-</td>
+                <td id="ForwardAnnualDividendYield" class="alltd">-</td>
+
+                <td class="desctd">-</td>
+                <td id="PayoutRatio" class="alltd">-</td>
+            </tr>
+        </table>
+        </div>
+
+        
+        
+        <script src="script.js" async defer></script>
+    </body>
+</html>
