@@ -1,4 +1,4 @@
-[Example Image]("https://github.com/nikzral/stat-alpha.github.io/blob/main/Screenshot%202023-11-17%20at%205.18.11%20PM.png")
+![Example Image]("https://raw.githubusercontent.com/nikzral/stat-alpha.github.io/main/Screenshot%202023-11-17%20at%205.18.11%20PM.png")
 # STAT
 STAT: Stock Technical Analysis Tool
 Created by Nik Zral in November 2020
